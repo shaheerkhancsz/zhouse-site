@@ -1,0 +1,74 @@
+/* Zhouse Booking Reports - admin screen */
+.zbr-wrap { max-width: 1600px; }
+
+.zbr-filters {
+	display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px 14px;
+	background: #fff; border: 1px solid #dcdcde; border-radius: 6px;
+	padding: 14px 16px; margin: 14px 0 12px;
+}
+.zbr-filters label { display: flex; flex-direction: column; gap: 4px; font-weight: 600; font-size: 12px; color: #50575e; }
+.zbr-filters input[type="search"] { min-width: 230px; }
+
+.zbr-downloads {
+	display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px;
+	margin-bottom: 16px;
+}
+.zbr-desc { color: #50575e; }
+.zbr-buttons { display: flex; flex-wrap: wrap; gap: 6px; }
+.zbr-buttons .dashicons { font-size: 16px; width: 16px; height: 16px; vertical-align: text-bottom; margin-right: 2px; }
+
+.zbr-kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.zbr-kpi {
+	background: #fff; border: 1px solid #dcdcde; border-left: 4px solid #2563eb; border-radius: 6px;
+	padding: 12px 14px;
+}
+.zbr-kpi-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: #646970; }
+.zbr-kpi-value { font-size: 26px; font-weight: 700; line-height: 1.25; color: #1d2327; margin: 4px 0 2px; font-variant-numeric: tabular-nums; }
+.zbr-kpi-sub { font-size: 12px; color: #646970; }
+
+.zbr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); gap: 16px; margin-bottom: 16px; }
+.zbr-card { background: #fff; border: 1px solid #dcdcde; border-radius: 6px; padding: 14px 16px; }
+.zbr-card-wide { margin-bottom: 16px; }
+.zbr-card h2 { margin: 0 0 10px; font-size: 15px; }
+.zbr-card .widefat { border: 0; box-shadow: none; }
+.zbr-card .num { text-align: right; font-variant-numeric: tabular-nums; }
+.zbr-bar-col { width: 22%; min-width: 60px; }
+.zbr-breakdown td:first-child { white-space: nowrap; }
+.zbr-bar { display: block; height: 10px; min-width: 2px; border-radius: 5px; background: #2563eb; }
+.zbr-muted { color: #646970; margin: 8px 0 0; }
+.zbr-empty { background: #fff; border: 1px dashed #c3c4c7; border-radius: 6px; padding: 30px; text-align: center; color: #646970; font-size: 14px; }
+
+.zbr-details td, .zbr-details th { white-space: nowrap; }
+.zbr-details td:nth-child(5), .zbr-details td:nth-child(6), .zbr-details td:nth-child(7) { white-space: normal; }
+.zbr-status { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+.zbr-status-approved { background: #dcfce7; color: #166534; }
+.zbr-status-pending { background: #fef3c7; color: #92400e; }
+.zbr-status-cancelled { background: #fee2e2; color: #991b1b; }
+
+.zbr-wrap .nav-tab-wrapper { margin-bottom: 4px; }
+.zbr-wrap .notice.inline { margin: 0 0 14px; }
+.zbr-scroll { overflow-x: auto; }
+.zbr-group-row td { background: #e7eefc !important; border-top: 2px solid #2563eb; padding-top: 8px; }
+.zbr-group-row strong { font-size: 13px; margin-right: 10px; }
+.zbr-group-row span { color: #50575e; }
+.zbr-details small { color: #646970; }
+.zbr-muted-inline { color: #991b1b; font-size: 11px; font-weight: 600; }
+.zbr-settings .zbr-card { margin-bottom: 16px; max-width: 900px; }
+.zbr-settings .form-table th { width: 140px; padding: 10px 10px 10px 0; }
+.zbr-settings .form-table td { padding: 8px 10px; }
+.zbr-map { max-width: 700px; }
+.zbr-logo-row { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: 10px 0 14px; }
+.zbr-logo-preview { width: 120px; height: 80px; border-radius: 6px; display: flex; align-items: center; justify-content: center; padding: 10px; border: 1px solid #dcdcde; }
+.zbr-logo-preview img { max-width: 100%; max-height: 100%; }
+.zbr-logo-preview span { font-size: 12px; color: #a7aaad; }
+.zbr-logo-dark { background: #1e293b; }
+.zbr-logo-light { background: #fff; }
+.zbr-logo-light span { color: #646970; }
+.zbr-logo-actions { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; flex: 1; min-width: 240px; }
+.zbr-logo-actions .zbr-muted { flex-basis: 100%; margin: 0; }
+.zbr-danger { color: #b32d2e !important; }
+
+@media (max-width: 782px) {
+	.zbr-grid { grid-template-columns: 1fr; }
+	.zbr-card { overflow-x: auto; }
+}

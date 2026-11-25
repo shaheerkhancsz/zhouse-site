@@ -1,0 +1,166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Slack 1.1.1\n"
+"Report-Msgid-Bugs-To: https://wpforms.com/support/\n"
+"Last-Translator: WPForms <support@wpforms.com>\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-17T15:55:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpforms-slack\n"
+
+#. Plugin Name of the plugin
+msgid "WPForms Slack"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Slack integration with WPForms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr ""
+
+#: src/Api/Client.php:66
+msgid "Slack authentication error"
+msgstr ""
+
+#. translators: %s is the account ID.
+#: src/Api/Client.php:68
+msgid "Slack API token is invalid for account ID: %s"
+msgstr ""
+
+#: src/Api/Http/Response.php:62
+msgid "Response error"
+msgstr ""
+
+#: src/Provider/Account.php:83
+msgid "Access token and user token are required."
+msgstr ""
+
+#: src/Provider/Account.php:96
+#: src/Provider/Account.php:150
+msgid "A Slack account with these credentials has already been added. Please try connecting a different account or verify the existing account details."
+msgstr ""
+
+#. translators: %1$s - Account label. %2$s - reauthorization URL.
+#: src/Provider/Account.php:266
+msgid "Heads up! The Slack account %1$s connection is expired. Tokens must be refreshed. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Refresh</a>"
+msgstr ""
+
+#. translators: %1$s - Account label. %2$s - reauthorization URL.
+#: src/Provider/Account.php:294
+msgid "The Slack account %1$s connection is missing required scopes. <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">Reauthorize</a>"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:230
+msgid "Marketing provider connection"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:335
+msgid "Send a Channel Message"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:336
+msgid "Send a Direct Message"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:337
+msgid "Set a Reminder"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:352
+msgid "Select User"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:356
+msgid "--- Select User ---"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:359
+#: src/Provider/Settings/FormBuilder.php:385
+#: src/Provider/Settings/FormBuilder.php:415
+msgid "Message"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:362
+msgid "This message will be sent to the selected users."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:378
+msgid "Select Channel"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:382
+msgid "--- Select a channel ---"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:388
+msgid "This message will be sent to the selected channels."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:404
+msgid "Select Time"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:418
+msgid "This message will be sent to the authorized user when the reminder is triggered."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:446
+msgid "Remove item"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:556
+msgid "Connect WPForms to Slack."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:558
+msgid "Get the most out of WPForms — use it with an active Slack account."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:586
+#: src/Provider/Settings/PageIntegrations.php:129
+msgid "Add New Account"
+msgstr ""
+
+#. translators: %1$s - Documentation URL.
+#: src/Provider/Settings/PageIntegrations.php:136
+msgid "If you need help connecting WPForms to Slack, <a href=\"%1$s\" rel=\"noopener noreferrer\" target=\"_blank\">read our documentation</a>."
+msgstr ""
+
+#: templates/builder/connection.php:27
+msgid "Select Account"
+msgstr ""
+
+#: templates/builder/connection.php:30
+msgid "--- Select ---"
+msgstr ""
+
+#: templates/builder/connection.php:42
+msgid "Action to Perform"
+msgstr ""
+
+#: templates/builder/connection.php:49
+msgid "--- Select Action ---"
+msgstr ""
+
+#: templates/builder/error.php:10
+msgid "Something went wrong while performing an AJAX request."
+msgstr ""
+
+#: templates/builder/select-field.php:16
+msgid "--- Select Form Field ---"
+msgstr ""
+
+#: templates/builder/textarea-field.php:17
+msgid "Enter a message"
+msgstr ""

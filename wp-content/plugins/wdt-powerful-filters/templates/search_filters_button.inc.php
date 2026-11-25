@@ -1,0 +1,3 @@
+<div class="wpDataTableFilterSection" id="wdt-pf-search-filters-button-block">
+    <button class="button btn wdt-pf-search-filters-button" role="button" aria-label="<?php echo esc_attr('Search filters') ?>" <?php if ($disableSearchFiltersButton) {?>  disabled="disabled"<?php } ?>><?php ($skin === 'mojito' || $skin === 'dark-mojito') ? esc_html_e(' ', 'wpdatatables') : esc_html_e(' Search', 'wpdatatables'); ?></button>
+</div>

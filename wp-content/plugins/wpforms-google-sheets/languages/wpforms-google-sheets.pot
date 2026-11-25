@@ -1,0 +1,350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Google Sheets 2.7.0\n"
+"Report-Msgid-Bugs-To: https://wpforms.com/support/\n"
+"Last-Translator: WPForms <support@wpforms.com>\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-17T12:51:01+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpforms-google-sheets\n"
+
+#. Plugin Name of the plugin
+msgid "WPForms Google Sheets"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Google Sheets integration with WPForms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr ""
+
+#: src/Api/Api.php:215
+#: src/Api/Api.php:264
+msgid "Entry ID (Column A)"
+msgstr ""
+
+#. translators: %s is a column name.
+#: src/Api/Api.php:259
+#: src/Provider/FieldMapper.php:260
+msgid "Column %s"
+msgstr ""
+
+#. translators: %s is an argument name.
+#: src/Provider/Account.php:76
+msgid "The %s authenticate parameter is missing"
+msgstr ""
+
+#: src/Provider/Account.php:91
+msgid "Invalid one time token sent"
+msgstr ""
+
+#: src/Provider/Account.php:289
+msgid "The Google Sheets account was not connected because the request did not pass the security check. Please make sure you have permission to manage integrations and start the connection again."
+msgstr ""
+
+#: src/Provider/Core.php:33
+#: src/Provider/Settings/FormBuilder.php:147
+msgid "Google Sheets"
+msgstr ""
+
+#: src/Provider/FieldMapper.php:255
+msgid "Entry ID"
+msgstr ""
+
+#. translators: %d is a field id.
+#: src/Provider/FieldMapper.php:267
+msgid "Field %d"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:412
+#: templates/builder/connection.php:90
+msgid "WPForms Spreadsheet"
+msgstr ""
+
+#. translators: %d is the sheet order number.
+#: src/Provider/Settings/FormBuilder.php:436
+msgid "Sheet %d"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:457
+msgid "You do not have permission to connect a Google Sheets account. Please contact your site administrator."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:547
+msgid "Heads up!"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:616
+msgid "Marketing provider connection"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:906
+msgid "The current sheet does not have some columns used in custom fields."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:907
+msgid "If you select another sheet or save the form, the custom field rows without the selected column will be removed."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:910
+msgid "Your Google account connection is no longer valid. Please visit <strong>Settings</strong> » <strong>Google Sheets</strong> to reconnect your account."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:915
+msgid "Your Google account connection is no longer valid. Please contact your site administrator to reconnect the account."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:917
+#: templates/builder/fields.php:60
+#: templates/builder/fields.php:120
+msgid "--- Select Form Field ---"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:918
+#: templates/builder/fields.php:70
+#: templates/builder/fields.php:130
+msgid "Custom Value"
+msgstr ""
+
+#. translators: %1$s is email of active google account .
+#: src/Provider/Settings/FormBuilder.php:924
+msgid "The Google account (%1$s) you've connected doesn't have permission to edit all of your spreadsheets."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:927
+msgid "Please ask the owner(s) to add you as an Editor, or visit <strong>WPForms</strong> » <strong>Settings</strong> » <strong>Integrations</strong> » <strong>Google Sheets</strong> to switch to a different Google account."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:934
+msgid "Advanced Mode"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:935
+msgid "Save"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:936
+msgid "Go Back"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:939
+#: src/Provider/Settings/PageIntegrations.php:180
+msgid "Need a custom application?"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:940
+#: src/Provider/Settings/PageIntegrations.php:182
+msgid "Enable Advanced Mode"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:949
+msgid "Google Sheets Documentation"
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:952
+msgid "Something went wrong while retrieving your spreadsheets. Please try again later."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:967
+msgid "Connect to a spreadsheet to start working with Google Sheets."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:968
+msgid "Connect your Google account to start working with Google Sheets."
+msgstr ""
+
+#: src/Provider/Settings/FormBuilder.php:978
+msgid "Learn how to get started with Google Sheets."
+msgstr ""
+
+#. translators: %1$s - Documentation URL.
+#: src/Provider/Settings/PageIntegrations.php:163
+msgid "If you need help connecting WPForms to Google Sheets, <a href=\"%1$s\" rel=\"noopener noreferrer\" target=\"_blank\">read our documentation</a>."
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:188
+msgid "Please fill out all of the fields below to add your new provider account."
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:298
+msgid "Your session expired. Please reload the page."
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:305
+msgid "You do not have permission."
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:323
+msgid "N/A"
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:324
+msgid "No Label"
+msgstr ""
+
+#: src/Provider/Settings/PageIntegrations.php:391
+#: templates/auth/errors.php:15
+msgid "Please provide valid Google Client ID and Google Client Secret."
+msgstr ""
+
+#: src/Retry.php:35
+msgid "Resend to Google Sheets"
+msgstr ""
+
+#. translators: %d - number of connections.
+#: src/Retry.php:122
+msgid "%d connection was resent."
+msgid_plural "%d connections were resent."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/auth/advanced-form.php:18
+msgid "Google Client ID *"
+msgstr ""
+
+#: templates/auth/advanced-form.php:23
+msgid "Google Client Secret *"
+msgstr ""
+
+#: templates/auth/advanced-form.php:28
+msgid "Callback URLs"
+msgstr ""
+
+#: templates/auth/errors.php:18
+#: templates/builder/error.php:13
+msgid "Something went wrong while performing an AJAX request."
+msgstr ""
+
+#: templates/auth/pro-form.php:13
+msgid "You’re going to be taken to Google to authenticate your account."
+msgstr ""
+
+#: templates/auth/sign-in.php:34
+#: templates/auth/sign-in.php:35
+msgid "Continue with Google"
+msgstr ""
+
+#: templates/builder/auth-error.php:17
+#: templates/settings/connected-account.php:24
+msgid "Your Google account connection has expired. Please reconnect your account."
+msgstr ""
+
+#: templates/builder/auth-error.php:19
+msgid "Your Google account connection has expired. Please contact your site administrator to reconnect the account."
+msgstr ""
+
+#. translators: %1$s is email of active google account; %2$s is a spreadsheet URL with no access.
+#: templates/builder/connection-error.php:18
+msgid "The Google account (%1$s) you connected doesn't have permission to edit <a href=\"%2$s\" target=\"_blank\" rel=\"noopener noreferrer\">this spreadsheet</a>. Please ask the owner to add you as an Editor, or visit <strong>WPForms</strong> » <strong>Settings</strong> » <strong>Integrations</strong> » <strong>Google Sheets</strong> to switch to a different Google account."
+msgstr ""
+
+#: templates/builder/connection.php:32
+msgid "Spreadsheet"
+msgstr ""
+
+#: templates/builder/connection.php:39
+msgid "Select Existing"
+msgstr ""
+
+#: templates/builder/connection.php:43
+msgid "Create New"
+msgstr ""
+
+#: templates/builder/connection.php:57
+msgid "Select Spreadsheet"
+msgstr ""
+
+#: templates/builder/connection.php:61
+msgid "Administrator Permissions Required"
+msgstr ""
+
+#: templates/builder/connection.php:62
+msgid "You don't have permission to connect this form to an existing spreadsheet, but you can create a new one."
+msgstr ""
+
+#: templates/builder/connection.php:69
+msgid "Remove Spreadsheet Connection"
+msgstr ""
+
+#: templates/builder/connection.php:74
+msgid "Link to the Google spreadsheet"
+msgstr ""
+
+#: templates/builder/connection.php:83
+msgid "Spreadsheet Name"
+msgstr ""
+
+#: templates/builder/connection.php:96
+msgid "Sheet"
+msgstr ""
+
+#: templates/builder/connection.php:103
+msgid "Sheet Name"
+msgstr ""
+
+#: templates/builder/connection.php:110
+msgid "Sheet 1"
+msgstr ""
+
+#: templates/builder/fields.php:16
+msgid "Field Mapping"
+msgstr ""
+
+#: templates/builder/fields.php:17
+msgid "Map fields to spreadsheet column values."
+msgstr ""
+
+#: templates/builder/fields.php:24
+msgid "Column Name"
+msgstr ""
+
+#: templates/builder/fields.php:25
+msgid "Form Field Value"
+msgstr ""
+
+#: templates/builder/fields.php:45
+#: templates/builder/fields.php:106
+msgid "--- Select a Column ---"
+msgstr ""
+
+#: templates/builder/fields.php:87
+#: templates/builder/fields.php:146
+msgid "Add Another"
+msgstr ""
+
+#: templates/builder/fields.php:93
+#: templates/builder/fields.php:152
+msgid "Remove"
+msgstr ""
+
+#: templates/builder/include-abandoned-entries.php:26
+msgid "Include Abandoned Entries"
+msgstr ""
+
+#: templates/builder/sheet-select.php:15
+msgid "--- Select a Sheet ---"
+msgstr ""
+
+#: templates/builder/sheet-select.php:16
+msgid "Create a New Sheet"
+msgstr ""
+
+#. translators: %1$s - Connection date.
+#: templates/settings/connected-account.php:46
+msgid "Connected on: %1$s"
+msgstr ""
+
+#: templates/settings/connected-account.php:57
+msgid "Disconnect"
+msgstr ""

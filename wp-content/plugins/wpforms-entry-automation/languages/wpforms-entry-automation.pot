@@ -1,0 +1,957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPForms Entry Automation 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wpforms.com/support/\n"
+"Last-Translator: WPForms <support@wpforms.com>\n"
+"Language-Team: WPForms <support@wpforms.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-17T12:52:05+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: wpforms-entry-automation\n"
+
+#. Plugin Name of the plugin
+msgid "WPForms Entry Automation"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://wpforms.com"
+msgstr ""
+
+#. Description of the plugin
+msgid "Entry Automation integration with WPForms."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPForms"
+msgstr ""
+
+#. translators: %1$s - entries statuses, %2$s - format, %3$s - export to, %4$s - schedule.
+#: src/Admin/FormBuilder.php:383
+msgid "This task is scheduled to export %1$s entries in %2$s format and %3$s %4$s."
+msgstr ""
+
+#. translators: %1$s - email addresses.
+#: src/Admin/FormBuilder.php:408
+msgid "email to %1$s"
+msgstr ""
+
+#. translators: %1$s - export to.
+#: src/Admin/FormBuilder.php:414
+msgid "upload to %1$s"
+msgstr ""
+
+#. translators: %1$s - entries statuses, %2$s - schedule.
+#: src/Admin/FormBuilder.php:435
+msgid "This task is scheduled to delete %1$s entries %2$s."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:456
+#: src/Admin/FormBuilder.php:475
+#: src/Admin/ListTable.php:903
+msgid "Entry Automation"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:483
+msgid "Add New Task"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:525
+msgid "Create WPForms Entry Automation Tasks."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:527
+msgid "To get started with Entry Automation, you’ll need to create a new task."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:529
+msgid "Learn more about Entry Automation"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:559
+msgid "Entry Automation Dashboard"
+msgstr ""
+
+#. translators: %s - link to the Entry Automation dashboard.
+#: src/Admin/FormBuilder.php:562
+msgid "We've added a new Tools page where you can <a href=\"%s\" target=\"_blank\">monitor and manage your Entry Automation tasks</a>."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:573
+msgid "Dismiss this notice"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:681
+#: src/Admin/FormBuilder.php:718
+#: src/Admin/FormBuilder.php:729
+msgid "Days of the Month"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:682
+#: src/Admin/FormBuilder.php:717
+#: src/Admin/FormBuilder.php:725
+msgid "Days of the Week"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:685
+msgid "Mon"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:689
+msgid "Tue"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:693
+msgid "Wed"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:697
+msgid "Thu"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:701
+msgid "Fri"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:705
+msgid "Sat"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:709
+msgid "Sun"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:719
+msgid "First Day of the Month"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:720
+msgid "Last Day of the Month"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:726
+msgid "Select days of the week to export entries."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:730
+msgid "Select days of the month to export entries."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:735
+msgid "Increment File Name"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:736
+msgid "Overwrite File"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:737
+msgid "Add Entries to File"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:741
+msgid "All Entries"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:742
+msgid "New Entries Since Last Export"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:746
+msgid "Connection Established"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:747
+msgid "We successfully connected to your ftp server."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:750
+msgid "Connection Failed"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:751
+msgid "There was an error while connecting to your ftp server. Please try again."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:754
+msgid "Required Connection"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:755
+msgid "You should test your FTP connection before saving the task."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:759
+#: src/Admin/ListTable.php:72
+msgid "Task"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:760
+msgid "Enter a task nickname"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:761
+msgid "You must provide a task nickname."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:762
+msgid "Are you sure you want to delete this task?"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:763
+msgid "This task is the first in the queue. Make sure the next task is scheduled. Are you sure you want to delete it?"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:764
+msgid "In order to complete your form's {provider} integration, please select \"Export Entries\" or \"Delete Entries\" task type."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:765
+msgid "In order to complete your form's {provider} integration, please select at least one day to schedule the task."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:767
+msgid "Entry Information columns have been changed. Please note that the columns in the existing file will not change."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:783
+msgid "You should add a connection and select existing Google Drive account."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:801
+msgid "You should add a connection and select existing Dropbox account."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:804
+msgid "Permissions Update"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:805
+msgid "To update files in your Dropbox, we need to request additional permissions. Please reconnect your Dropbox account to continue."
+msgstr ""
+
+#: src/Admin/FormBuilder.php:827
+msgid "Published"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:828
+msgid "Trash"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:829
+msgid "Spam"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:830
+msgid "Partial"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:831
+msgid "Abandoned"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:863
+msgid "Entry Automation Task"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:910
+msgid "Entry ID"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:911
+msgid "Entry Date"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:912
+msgid "Entry Notes"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:913
+msgid "Type"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:914
+msgid "Viewed"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:915
+msgid "Starred"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:916
+msgid "User Agent"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:917
+msgid "User IP"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:918
+msgid "Unique Generated User ID"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:919
+msgid "Payment Status"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:920
+msgid "Payment Gateway Information"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:921
+msgid "Include data of previously deleted fields"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:932
+msgid "Geolocation Details"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:936
+msgid "Dropbox Links"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:940
+msgid "Google Drive Links"
+msgstr ""
+
+#: src/Admin/FormBuilder.php:1019
+msgid "Something went wrong and we can’t load the tasks."
+msgstr ""
+
+#: src/Admin/ListTable.php:73
+msgid "Action"
+msgstr ""
+
+#: src/Admin/ListTable.php:74
+#: templates/builder/export.php:91
+msgid "Export To"
+msgstr ""
+
+#: src/Admin/ListTable.php:75
+#: templates/builder/schedule.php:144
+msgid "Schedule"
+msgstr ""
+
+#: src/Admin/ListTable.php:76
+msgid "Last Run"
+msgstr ""
+
+#: src/Admin/ListTable.php:77
+#: templates/builder/filter.php:75
+msgid "Status"
+msgstr ""
+
+#: src/Admin/ListTable.php:140
+msgid "Template"
+msgstr ""
+
+#: src/Admin/ListTable.php:158
+msgid "Activate"
+msgstr ""
+
+#: src/Admin/ListTable.php:159
+msgid "Deactivate"
+msgstr ""
+
+#. translators: %d: number of tasks activated.
+#: src/Admin/ListTable.php:260
+msgid "%d task activated successfully."
+msgid_plural "%d tasks activated successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of tasks deactivated.
+#: src/Admin/ListTable.php:267
+msgid "%d task deactivated successfully."
+msgid_plural "%d tasks deactivated successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Admin/ListTable.php:280
+msgid "No automation tasks found for the selected status."
+msgstr ""
+
+#: src/Admin/ListTable.php:287
+msgid "You currently don’t have an automation tasks."
+msgstr ""
+
+#: src/Admin/ListTable.php:288
+msgid "Add New Automation Task"
+msgstr ""
+
+#: src/Admin/ListTable.php:357
+msgid "Unknown Task"
+msgstr ""
+
+#. translators: %s is the type of task, e.g., 'Export Entries' or 'Delete Entries'.
+#: src/Admin/ListTable.php:375
+msgid "%s Entries"
+msgstr ""
+
+#: src/Admin/ListTable.php:403
+#: src/Admin/ListTable.php:451
+msgid "N/A"
+msgstr ""
+
+#: src/Admin/ListTable.php:428
+#: templates/builder/export-to/email.php:20
+msgid "Email Address"
+msgstr ""
+
+#: src/Admin/ListTable.php:433
+msgid "FTP"
+msgstr ""
+
+#: src/Admin/ListTable.php:441
+#: src/Export/Provider/Dropbox.php:57
+msgid "Dropbox"
+msgstr ""
+
+#: src/Admin/ListTable.php:446
+#: src/Export/Provider/GoogleDrive.php:27
+msgid "Google Drive"
+msgstr ""
+
+#: src/Admin/ListTable.php:515
+msgid "View on Dropbox"
+msgstr ""
+
+#: src/Admin/ListTable.php:537
+msgid "View on Google Drive"
+msgstr ""
+
+#: src/Admin/ListTable.php:555
+msgid "After previous task"
+msgstr ""
+
+#: src/Admin/ListTable.php:562
+msgid "Not Scheduled"
+msgstr ""
+
+#: src/Admin/ListTable.php:582
+msgid "Never run"
+msgstr ""
+
+#: src/Admin/ListTable.php:613
+msgid "Active"
+msgstr ""
+
+#: src/Admin/ListTable.php:614
+msgid "Inactive"
+msgstr ""
+
+#: src/Admin/ListTable.php:615
+msgid "Failed"
+msgstr ""
+
+#: src/Admin/ListTable.php:616
+msgid "Running..."
+msgstr ""
+
+#: src/Admin/ListTable.php:619
+msgid "Unknown"
+msgstr ""
+
+#: src/Admin/ListTable.php:883
+msgid "Number of tasks per page:"
+msgstr ""
+
+#: src/Admin/ListTable.php:907
+msgid "Search Tasks"
+msgstr ""
+
+#. translators: %1$s - link to the WordPress Developer documentation.
+#: src/Admin/ListTable.php:923
+msgid "Unlike a system cron, WP-Cron only runs when someone visits your site. This means tasks may not run exactly on schedule, but will trigger on the next page load. <a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>"
+msgstr ""
+
+#: src/Admin/ListTable.php:937
+msgid "Heads Up About Scheduling"
+msgstr ""
+
+#: src/Admin/Tools.php:132
+#: src/Admin/Tools.php:174
+msgid "Which form would you like to add an automation task to?"
+msgstr ""
+
+#: src/Admin/Tools.php:152
+msgid "-- Select a Form --"
+msgstr ""
+
+#: src/Admin/Tools.php:173
+msgid "Select a Form"
+msgstr ""
+
+#: src/Admin/Tools.php:175
+msgid "Continue"
+msgstr ""
+
+#: src/Admin/Tools.php:176
+msgid "Cancel"
+msgstr ""
+
+#: src/Export/Formatter/CSV.php:25
+msgid "CSV"
+msgstr ""
+
+#: src/Export/Formatter/Formatter.php:125
+msgid "Entries"
+msgstr ""
+
+#: src/Export/Formatter/JSON.php:120
+msgid "JSON"
+msgstr ""
+
+#: src/Export/Formatter/PDF.php:113
+msgid "Name"
+msgstr ""
+
+#: src/Export/Formatter/PDF.php:114
+msgid "Value"
+msgstr ""
+
+#. translators: %s - Entry ID.
+#: src/Export/Formatter/PDF.php:118
+msgid "Entry #%s"
+msgstr ""
+
+#: src/Export/Formatter/PDF.php:230
+msgid "PDF"
+msgstr ""
+
+#: src/Export/Formatter/XLSX.php:74
+msgid "XLSX"
+msgstr ""
+
+#: src/Export/Provider/Email.php:26
+msgid "Email"
+msgstr ""
+
+#. translators: %1$s - task name.
+#: src/Export/Provider/Email.php:184
+msgid "Entries Export: %1$s"
+msgstr ""
+
+#: src/Export/Provider/Email.php:202
+msgid "Please find attached the entries export."
+msgstr ""
+
+#: src/Export/Provider/Email.php:214
+msgid "Form"
+msgstr ""
+
+#: src/Export/Provider/Email.php:219
+msgid "Date"
+msgstr ""
+
+#: src/Export/Provider/Email.php:224
+#: templates/builder/task.php:78
+msgid "Task Summary"
+msgstr ""
+
+#: src/Export/Provider/FTP.php:38
+msgid "FTP Server"
+msgstr ""
+
+#: src/Helpers/DropboxClient.php:208
+#: templates/builder/export-to/dropbox-fields.php:45
+msgid "Root"
+msgstr ""
+
+#: src/Helpers/DropboxClient.php:292
+msgid "Dropbox API: Error refreshing Dropbox access token."
+msgstr ""
+
+#: src/Helpers/DropboxReconnect.php:216
+msgid "Account ID is required."
+msgstr ""
+
+#: src/Helpers/FormBuilderAjax.php:123
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: src/Helpers/FormBuilderAjax.php:139
+msgid "You do not have permission to edit this form."
+msgstr ""
+
+#: src/Helpers/FormBuilderAjax.php:196
+msgid "Something went wrong while performing an AJAX request."
+msgstr ""
+
+#: src/Helpers/Scheduler.php:26
+msgid "Immediately after previous task"
+msgstr ""
+
+#. translators: %1$s - first/last, %2$s - time.
+#: src/Helpers/Scheduler.php:34
+msgid "Every %1$s day of the month at %2$s"
+msgstr ""
+
+#. translators: %1$s - days of the month, %2$s - time.
+#: src/Helpers/Scheduler.php:45
+msgid "Every month on the %1$s at %2$s"
+msgstr ""
+
+#: src/Helpers/Scheduler.php:48
+#: src/Helpers/Scheduler.php:135
+#: src/Helpers/Scheduler.php:175
+msgid "every day"
+msgstr ""
+
+#: src/Helpers/Scheduler.php:48
+#: src/Helpers/Scheduler.php:135
+#: src/Helpers/Scheduler.php:179
+msgid "every week day"
+msgstr ""
+
+#. translators: %1$s - days of the week, %2$s - time.
+#: src/Helpers/Scheduler.php:50
+#: src/Helpers/Scheduler.php:115
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. translators: %1$s - days of the week, %2$s - time.
+#: src/Helpers/Scheduler.php:54
+msgid "Every %1$s at %2$s"
+msgstr ""
+
+#: src/Helpers/Scheduler.php:93
+msgid "and will run immediately after the previous task"
+msgstr ""
+
+#. translators: %1$s - days of the month, %2$s - time.
+#: src/Helpers/Scheduler.php:106
+msgid "%1$s of each month at %2$s"
+msgstr ""
+
+#. translators: %1$s - first or last day of the month, %2$s - time.
+#: src/Helpers/Scheduler.php:111
+msgid "the %1$s day of the month at %2$s"
+msgstr ""
+
+#: src/Helpers/Scheduler.php:140
+msgid "on"
+msgstr ""
+
+#: src/Helpers/Scheduler.php:145
+#: src/Helpers/Scheduler.php:148
+msgid "and"
+msgstr ""
+
+#: templates/builder/export-to/dropbox-fields.php:8
+msgid "Dropbox Folder Name"
+msgstr ""
+
+#: templates/builder/export-to/dropbox-fields.php:9
+msgid "Name of the folder where your exported files will be stored in Dropbox."
+msgstr ""
+
+#: templates/builder/export-to/dropbox-fields.php:24
+msgid "Dropbox Folder to Store Data"
+msgstr ""
+
+#: templates/builder/export-to/dropbox-fields.php:25
+msgid "Select the location in your Dropbox account where files should be stored."
+msgstr ""
+
+#: templates/builder/export-to/dropbox.php:21
+msgid "Add New Account"
+msgstr ""
+
+#: templates/builder/export-to/dropbox.php:34
+#: templates/builder/export-to/google.php:33
+msgid "Add New Connection"
+msgstr ""
+
+#: templates/builder/export-to/dropbox.php:39
+msgid "Dropbox Account"
+msgstr ""
+
+#: templates/builder/export-to/dropbox.php:40
+msgid "Select which Dropbox account to use for this export task."
+msgstr ""
+
+#: templates/builder/export-to/dropbox.php:46
+msgid "--- Select ---"
+msgstr ""
+
+#: templates/builder/export-to/dropbox.php:63
+#: templates/builder/export-to/ftp.php:97
+#: templates/builder/export-to/google-folder.php:54
+#: templates/builder/export-to/google.php:58
+msgid "Remove Connection"
+msgstr ""
+
+#: templates/builder/export-to/email.php:12
+msgid "You can add multiple email addresses, separated by commas."
+msgstr ""
+
+#: templates/builder/export-to/email.php:28
+msgid "Enter the email address."
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:15
+msgid "FTP Host"
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:18
+msgid "The FTP host address."
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:31
+msgid "Port"
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:34
+msgid "The port number for the FTP connection."
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:47
+msgid "Username"
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:50
+msgid "The username for the FTP connection."
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:63
+msgid "Password"
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:66
+msgid "The password for the FTP connection."
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:80
+msgid "Path"
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:83
+msgid "The path on the FTP server where the file will be uploaded."
+msgstr ""
+
+#: templates/builder/export-to/ftp.php:94
+msgid "Test Connection"
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:11
+msgid "Google Drive Folder"
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:17
+msgid "Create New"
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:21
+msgid "Select Existing"
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:36
+msgid "Select Folder"
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:40
+msgid "Administrator Permissions Required"
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:41
+msgid "You don't have permission to connect this form to an existing folder, but you can create a new one."
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:50
+msgid "View Folder on Drive"
+msgstr ""
+
+#: templates/builder/export-to/google-folder.php:61
+msgid "Google Drive Folder Name"
+msgstr ""
+
+#: templates/builder/export-to/google.php:38
+msgid "Google Account"
+msgstr ""
+
+#: templates/builder/export-to/google.php:41
+msgid "Select Account"
+msgstr ""
+
+#: templates/builder/export.php:15
+msgid "File Name"
+msgstr ""
+
+#: templates/builder/export.php:24
+msgid "Enter the file name. Consider that it may be different in the result"
+msgstr ""
+
+#: templates/builder/export.php:28
+msgid "File Format"
+msgstr ""
+
+#: templates/builder/export.php:29
+msgid "Choose file format. CSV and XLSX are the most common."
+msgstr ""
+
+#. translators: %s - link to the WPForms.com doc article.
+#: templates/builder/export.php:33
+msgid "<strong>Heads up!</strong> Some email providers have limits on attachment file size. If exporting large files, your notifications may not be delivered. <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Learn More</a>"
+msgstr ""
+
+#: templates/builder/export.php:68
+msgid "Display One Entry Per Page"
+msgstr ""
+
+#: templates/builder/export.php:69
+msgid "When enabled, each entry will start on a new page in the exported PDF file."
+msgstr ""
+
+#: templates/builder/export.php:92
+msgid "Choose export destination."
+msgstr ""
+
+#: templates/builder/export.php:126
+#: templates/builder/filter.php:20
+msgid "Form Fields"
+msgstr ""
+
+#: templates/builder/export.php:127
+msgid "Select which form fields should be included in the export file."
+msgstr ""
+
+#: templates/builder/export.php:140
+msgid "Additional Information"
+msgstr ""
+
+#: templates/builder/export.php:141
+msgid "Select additional entry information to include in the export file."
+msgstr ""
+
+#: templates/builder/export.php:183
+msgid "Export"
+msgstr ""
+
+#: templates/builder/export.php:184
+msgid "Choose how many entries to include in each export file."
+msgstr ""
+
+#: templates/builder/export.php:208
+msgid "Entry Information"
+msgstr ""
+
+#: templates/builder/filter.php:11
+msgid "Filter"
+msgstr ""
+
+#: templates/builder/filter.php:22
+msgid "Any Field"
+msgstr ""
+
+#: templates/builder/filter.php:38
+msgid "Advanced Options"
+msgstr ""
+
+#: templates/builder/filter.php:76
+msgid "Select which form entry statuses should be included in this task."
+msgstr ""
+
+#: templates/builder/filter.php:91
+msgid "Select status"
+msgstr ""
+
+#: templates/builder/on-duplicate-option.php:8
+msgid "If File Already Exists"
+msgstr ""
+
+#: templates/builder/on-duplicate-option.php:9
+msgid "Increment file name will affect only file name. Overwrite file will replace the old exported file with entries. Add Entries to File will extend the existing file."
+msgstr ""
+
+#: templates/builder/schedule.php:8
+msgid "Run After Previous Task"
+msgstr ""
+
+#: templates/builder/schedule.php:9
+msgid "Run this task after another task has completed execution."
+msgstr ""
+
+#: templates/builder/schedule.php:27
+msgid "Dismiss this notice."
+msgstr ""
+
+#: templates/builder/schedule.php:28
+msgid "Run Tasks in Sequence"
+msgstr ""
+
+#: templates/builder/schedule.php:29
+msgid "To avoid conflicts and keep your data safe, it’s recommended that you run tasks in sequence."
+msgstr ""
+
+#: templates/builder/schedule.php:30
+msgid "This task has been added to the queue and will run after the previous task has completed."
+msgstr ""
+
+#: templates/builder/schedule.php:47
+msgid "Start Date"
+msgstr ""
+
+#: templates/builder/schedule.php:48
+msgid "Choose when this automated task should begin running."
+msgstr ""
+
+#: templates/builder/schedule.php:68
+msgid "End Date"
+msgstr ""
+
+#: templates/builder/schedule.php:69
+msgid "Optional. Choose when this automated task should stop running."
+msgstr ""
+
+#: templates/builder/schedule.php:84
+msgid "None"
+msgstr ""
+
+#: templates/builder/schedule.php:91
+msgid "Frequency"
+msgstr ""
+
+#: templates/builder/schedule.php:92
+msgid "How often this task should run."
+msgstr ""
+
+#: templates/builder/schedule.php:114
+msgid "Time"
+msgstr ""
+
+#: templates/builder/schedule.php:115
+msgid "Select the time when this task should run."
+msgstr ""
+
+#. translators: %s: Connection ID.
+#: templates/builder/task.php:9
+msgid "Connection ID: %s"
+msgstr ""
+
+#: templates/builder/task.php:33
+msgid "Edit"
+msgstr ""
+
+#: templates/builder/task.php:55
+msgid "Clone"
+msgstr ""
+
+#: templates/builder/task.php:59
+msgid "Delete"
+msgstr ""
+
+#: templates/builder/task.php:63
+msgid "Open / Close"
+msgstr ""
+
+#: templates/builder/task.php:96
+msgid "Export Entries"
+msgstr ""
+
+#: templates/builder/task.php:110
+msgid "Delete Entries"
+msgstr ""

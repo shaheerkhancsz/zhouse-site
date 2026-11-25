@@ -1,0 +1,16 @@
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/backup*/
+wp-content/ai1wm-backups/
+error_log
+*.log
+*.zip
+*.sql
+help.z-houses.com/
+indexfurniture.com.pk/
+meeting.z-houses.com/
+zkayspaces.com/
+.env
+.htaccess.bk
